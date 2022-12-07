@@ -122,13 +122,14 @@ function game(){
         
     }
     if (computerWinning > playerWinning){
-        console.log("Computer Wins!");
+        
+        alert(`Results: \n\n Computer Winning: ${computerWinning} \n\n Player Winning: ${playerWinning}  \n\n COMPUTER WINS!`);
     }
     else if (computerWinning < playerWinning){
-        console.log("Player Wins!");
+        alert(`Results: \n\n Computer Winning: ${computerWinning} \n\n Player Winning: ${playerWinning}  \n\n PLAYER WINS!`);
     }
     else {
-        console.log("it's a tie!");
+        alert("it's a tie!");
     }
 }
 
